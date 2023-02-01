@@ -27,11 +27,13 @@ nav{
   transition: 0.3s ease-in-out;  
 }
 
-#navbar li a:hover{
+#navbar li a:hover::after,  
+#navbar li a.active::after{
   color: white;
 }
 
-#navbar li a:hover::after{
+#navbar li a:hover::after,
+#navbar li a.active::after{
   content: "";
   width: 30%;
   height: 2px;
