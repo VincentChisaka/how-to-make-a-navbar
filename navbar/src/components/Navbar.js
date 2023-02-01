@@ -8,9 +8,9 @@ return(
         </a>
 
         <div>
-            <ul>
+            <ul id="navbar">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a className="active" href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="index.html">Blog</a>
@@ -20,7 +20,7 @@ return(
                 </li>
                 <li>
                     <a href="index.html">Contacts</a>
-                </li>
+                 </li>
             </ul>
         </div>
       </nav>
