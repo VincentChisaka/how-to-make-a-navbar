@@ -1,3 +1,5 @@
+import "./Navbar.css"
+
 function Navbar(){
 return(
     <>
@@ -10,7 +12,7 @@ return(
         <div>
             <ul id="navbar">
                 <li>
-                    <a className="active" href="index.html">Home</a>
+                    <a className="active"    href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="index.html">Blog</a>
@@ -22,6 +24,10 @@ return(
                     <a href="index.html">Contacts</a>
                  </li>
             </ul>
+        </div>
+
+        <div id="mobile"><i className="fas-fa-bars"></i>
+
         </div>
       </nav>
     </>
